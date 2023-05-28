@@ -1,16 +1,17 @@
 ---
-- name: Create client service
+
+- name: client | Create client service
   ansible.builtin.import_role:
-    name: buluma.service
+    name: robertdebock.service
   vars:
     service_list:
       - name: dsvpn-client
-        description: "Dead simple VPN client"
+        description: Dead simple VPN client
         start_command: "{{ dsvpn_install_directory }}/dsvpn client {{ dsvpn_key_directory }}/vpn.key {{ dsvpn_server }}"
   notify:
     - Restart dsvpn-client
 
-- name: Start dsvpn-client
+- name: client | Start dsvpn-client
   ansible.builtin.service:
     name: dsvpn-client
     state: started
