@@ -16,6 +16,4 @@ Why is this feature required?
 
 Add any other context about the feature request here.
 
-{% if sponsored_message %}
-Please consider [sponsoring me](https://github.com/sponsors/{{ github_namespace }}).
-{% endif %}
+Please consider [sponsoring me](https://github.com/sponsors/buluma).
