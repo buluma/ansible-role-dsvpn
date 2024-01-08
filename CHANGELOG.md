@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.2.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.1.3...0.2.0)
+
 ## [0.1.3](https://github.com/buluma/ansible-role-dsvpn/tree/0.1.3) (2023-12-24)
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.1.2...0.1.3)
