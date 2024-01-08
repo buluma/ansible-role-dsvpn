@@ -11,6 +11,7 @@ on:
     branches:
       - master
       - main
+      - dependabot/**
       - testing
     paths-ignore:
       - '**/README.md'
@@ -20,8 +21,7 @@ on:
     # Only following types are handled by the action, but one can default to all as well
     types: [opened, reopened, synchronize]
 
-permissions:
-  contents: write
+permissions: write-all
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
