@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-dsvpn/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.4.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#14](https://github.com/buluma/ansible-role-dsvpn/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.4.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.4.0) (2024-01-20)
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.3.0...0.4.0)
