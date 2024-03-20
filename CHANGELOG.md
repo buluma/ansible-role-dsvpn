@@ -14,16 +14,13 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.3.0...0.4.0)
 
-**Merged pull requests:**
-
-- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#13](https://github.com/buluma/ansible-role-dsvpn/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [0.3.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.3.0) (2024-01-10)
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.2.0...0.3.0)
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#13](https://github.com/buluma/ansible-role-dsvpn/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#9](https://github.com/buluma/ansible-role-dsvpn/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.2.0) (2024-01-02)
