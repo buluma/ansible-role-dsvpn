@@ -5,4 +5,4 @@
 repository:
   description: Install and configure dsvpn on your system.
   homepage: https://buluma.github.io/
-  topics: dsvpn, ansible, molecule, tox, playbook
+  topics: dsvpn, ansible, molecule, playbook
