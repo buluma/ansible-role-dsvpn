@@ -1,0 +1,17 @@
+digraph PhiloDilemma {
+  label = "Michael Buluma" ;
+  overlap=false
+  {
+    "dsvpn" [fillcolor=yellow style=filled penwidth=3]
+    "buluma.bootstrap" [fillcolor=green style=filled]
+    "buluma.buildtools" [fillcolor=green style=filled]
+    "buluma.ca_certificates" [fillcolor=green style=filled]
+    "buluma.core_dependencies" [fillcolor=green style=filled]
+    "buluma.service" [fillcolor=green style=filled]
+  }
+  "dsvpn" -> "buluma.bootstrap"
+  "dsvpn" -> "buluma.buildtools"
+  "dsvpn" -> "buluma.ca_certificates"
+  "dsvpn" -> "buluma.core_dependencies"
+  "dsvpn" -> "buluma.service"
+}
