@@ -1,5 +1,5 @@
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: true
   gather_facts: false
