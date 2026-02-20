@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if dsvpn_version is set correctly
   ansible.builtin.assert:
     that:

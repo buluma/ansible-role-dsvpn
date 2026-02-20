@@ -1,5 +1,4 @@
 ---
-
 - name: server | Create server service
   ansible.builtin.import_role:
     name: robertdebock.service
