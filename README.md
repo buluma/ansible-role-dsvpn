@@ -11,30 +11,26 @@ Install and configure dsvpn on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-dsvpn/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.dsvpn
+  - role: buluma.dsvpn
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-dsvpn/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
-    - role: buluma.ca_certificates
-    - role: buluma.core_dependencies
-    - role: buluma.buildtools
+  - role: buluma.bootstrap
+  - role: buluma.ca_certificates
+  - role: buluma.core_dependencies
+  - role: buluma.buildtools
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -44,27 +40,12 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-dsvpn/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for dsvpn
-
-# The released version to download. See https://github.com/jedisct1/dsvpn/releases.
-dsvpn_version: "0.1.4"
-
-# Where to download dsvpn to.
-dsvpn_temporary_directory: /tmp
-
-# Where to install dsvpn.
 dsvpn_install_directory: /usr/local/bin
-
-# Where to generate the keys. This is a sensitive file.
 dsvpn_key_directory: /tmp
-
-# The role to let dsvpn take, can be `client` or `server`.
 dsvpn_role: client
-
-# When the role `client` is selected, this is the address of the server
-# to connect to. Can be an address or a (resolvable) name.
-dsvpn_server: "127.0.0.1"
+dsvpn_server: 127.0.0.1
+dsvpn_temporary_directory: /tmp
+dsvpn_version: 0.1.4
 ```
 
 ## [Requirements](#requirements)

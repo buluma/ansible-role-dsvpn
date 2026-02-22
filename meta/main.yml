@@ -1,12 +1,14 @@
 ---
+dependencies: []
 galaxy_info:
   author: Michael Buluma
-  namespace: buluma
-  role_name: dsvpn
-  description: Install and configure dsvpn on your system.
-  license: Apache-2.0
   company: none
+  description: Install and configure dsvpn on your system.
+  galaxy_tags:
+    - dsvpn
+  license: Apache-2.0
   min_ansible_version: "2.12"
+  namespace: buluma
   platforms:
     - name: EL
       versions:
@@ -23,6 +25,4 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-  galaxy_tags:
-    - dsvpn
-dependencies: []
+  role_name: dsvpn
