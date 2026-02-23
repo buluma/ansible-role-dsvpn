@@ -1,8 +1,8 @@
 ---
-  - become: true
-    gather_facts: false
-    hosts: all
-    name: Verify
-    tasks:
-      - ansible.builtin.ping:
-        name: Check if connection still works
+- become: true
+  gather_facts: false
+  hosts: all
+  name: Verify
+  tasks:
+  - ansible.builtin.ping:
+    name: Check if connection still works
