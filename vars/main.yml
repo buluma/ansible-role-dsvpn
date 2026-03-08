@@ -8,5 +8,5 @@ _dsvpn_requirements:
     - iproute
   default:
     - kmod
-dsvpn_release_url: https://github.com/jedisct1/dsvpn/archive/{{ dsvpn_version }}.tar.gz
+dsvpn_release_url: "https://github.com/jedisct1/dsvpn/archive/{{ dsvpn_version }}.tar.gz"
 dsvpn_requirements: "{{ _dsvpn_requirements[ansible_os_family] | default(_dsvpn_requirements['default']) }}"

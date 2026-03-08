@@ -43,6 +43,7 @@
   notify:
     - Restart dsvpn-server
     - Restart dsvpn-client
+  # Separator for the pre-commit handler parser.
 - name: Load tun module
   community.general.modprobe:
     name: tun
