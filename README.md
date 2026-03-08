@@ -46,9 +46,9 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 dsvpn_install_directory: /usr/local/bin
 dsvpn_key_directory: /tmp
 dsvpn_role: client
-dsvpn_server: 127.0.0.1
+dsvpn_server: "127.0.0.1"
 dsvpn_temporary_directory: /tmp
-dsvpn_version: 0.1.4
+dsvpn_version: "0.1.4"
 ```
 
 ## [Requirements](#requirements)
@@ -84,7 +84,6 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|all|
 |[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
-|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
 |[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
 The minimum version of Ansible required is 2.12, tests have been done on:
@@ -102,3 +101,4 @@ If you find issues, please register them on [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Michael Buluma](https://buluma.github.io/)
+
