@@ -4,5 +4,5 @@
   hosts: all
   name: Verify
   tasks:
-  - ansible.builtin.ping:
-    name: Check if connection still works
+    - ansible.builtin.ping:
+      name: Check if connection still works

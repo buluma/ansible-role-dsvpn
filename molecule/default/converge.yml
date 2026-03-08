@@ -4,4 +4,4 @@
   hosts: all
   name: Converge
   roles:
-  - role: buluma.dsvpn
+    - role: buluma.dsvpn
