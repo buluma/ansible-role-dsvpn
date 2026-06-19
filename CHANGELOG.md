@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.6.1](https://github.com/buluma/ansible-role-dsvpn/tree/26.6.1) (2026-06-15)
+
+[Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/26.6.0...26.6.1)
+
 ## [26.6.0](https://github.com/buluma/ansible-role-dsvpn/tree/26.6.0) (2026-06-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/24.3.31...26.6.0)
@@ -14,6 +18,7 @@
 
 **Merged pull requests:**
 
+- Bump dependabot/fetch-metadata from 1 to 2 [\#19](https://github.com/buluma/ansible-role-dsvpn/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#16](https://github.com/buluma/ansible-role-dsvpn/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#15](https://github.com/buluma/ansible-role-dsvpn/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#14](https://github.com/buluma/ansible-role-dsvpn/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -32,7 +37,6 @@
 
 **Merged pull requests:**
 
-- Bump dependabot/fetch-metadata from 1 to 2 [\#19](https://github.com/buluma/ansible-role-dsvpn/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#9](https://github.com/buluma/ansible-role-dsvpn/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.2.0) (2024-01-02)
