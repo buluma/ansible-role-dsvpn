@@ -11,6 +11,7 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 4 to 6 [\#21](https://github.com/buluma/ansible-role-dsvpn/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 3 to 4 [\#9](https://github.com/buluma/ansible-role-dsvpn/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-dsvpn/tree/24.3.31) (2024-03-29)
 
@@ -34,10 +35,6 @@
 ## [0.3.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.3.0) (2024-01-10)
 
 [Full Changelog](https://github.com/buluma/ansible-role-dsvpn/compare/0.2.0...0.3.0)
-
-**Merged pull requests:**
-
-- Bump actions/checkout from 3 to 4 [\#9](https://github.com/buluma/ansible-role-dsvpn/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.2.0](https://github.com/buluma/ansible-role-dsvpn/tree/0.2.0) (2024-01-02)
 
