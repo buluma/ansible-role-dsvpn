@@ -78,7 +78,7 @@ dsvpn_key_directory: /tmp
 dsvpn_role: client
 dsvpn_server: "127.0.0.1"
 dsvpn_temporary_directory: /tmp
-dsvpn_version: "0.1.4"
+dsvpn_version: "0.1.5"
 ```
 
 ## [Requirements](#requirements)
